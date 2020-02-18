@@ -35,5 +35,6 @@ pub fn run(){
     // Char
     let a1 = 'a';
     let face = '\u{1f600}';
-    println!("{:?}", (x, y, z, is_active, is_greater, a1, face));
+    let rune = '\u{16a6}';
+    println!("{:?}", (x, y, z, is_active, is_greater, a1, face, rune));
 }
